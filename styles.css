@@ -5,12 +5,15 @@
 }
 .container{
 	border: 1px solid black;
-	height: 500px;
+	height: 520px;
 	background-color : #cccccc;
 }
-header{
+h1{
 	text-align: center;
 	padding-top: 10px;
+}
+ul {
+    list-style-type: none;
 }
 .player_one{
 	display: flex;
@@ -27,7 +30,7 @@ header{
 	color: black;
 	padding-top: 3px;
 }
-h5{
+h2{
 	padding-top:5px;
 	text-align: center;
 	padding-bottom: 7px;
