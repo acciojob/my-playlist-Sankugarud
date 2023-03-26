@@ -1,1 +1,69 @@
 /*  your css code here. If applicable */
+*{
+	padding: 0;
+	margin: 0;
+}
+.container{
+	border: 1px solid black;
+	height: 500px;
+	background-color : #cccccc;
+}
+header{
+	text-align: center;
+	padding-top: 10px;
+}
+.player_one{
+	display: flex;
+	flex-direction: column;
+	border: 1px solid black;
+	margin: 10px;
+	border-radius: 5px;
+	background-color: rgb(255,255,255);
+	font-size: 10px;
+	padding: 10px;
+}
+.player_one a{
+	text-decoration: none;
+	color: black;
+	padding-top: 3px;
+}
+h5{
+	padding-top:5px;
+	text-align: center;
+	padding-bottom: 7px;
+}
+.player_two{
+  position: relative;
+  width: 300px;
+  height: 320px;
+  margin: 0 auto;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 5px;
+}
+
+.player_two video, .player_two audio {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.player_two video {
+ width: 300px;
+  height: 200px;
+	
+}
+.video-box > p{
+	margin-top: 10px;
+	font-size: 15px;
+}
+.player_two audio {
+  width: 300px;
+}
+.player_two h5, p{
+  align-items: center;
+}
+
+
+
